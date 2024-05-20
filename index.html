@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="libss/gsap/gsap.min.js" defer></script>
+
+
+    <script src="libss/swiper/swiper-bundle.min.js" defer ></script>
+    <link rel="stylesheet" href="libss/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
+
+</head>
+<body>
+    
+    <!-- разработка слайдов -->
+    <div class="swiper slider">
+       
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="slide__content">
+                    <h2>Куксов Евгнеий Ильич</h2>
+                    <p>Группа ЗЦИС-27</p>                   
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="slide__content">
+                    <h2>О себе</h2>
+                    <p>Меня зовут Евгений,мне 25 лет.Окончил Ярославский градостроительный колледж.На данный момент работаю в органах Федеральной службы судебных приставов г.Ярославль. </p>                    
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="slide__content">
+                    <h2>Увлечение</h2>
+                    <p>Занимался многими видами еднаборств таких как кудо,дзюдо,боево самбо.После начал заниматься Армрестлингом где должен был поехать на международное соревнование по России, но получив травму не срослось как-то.Далее увлекся написанием современной музыки.Люблю книги связанные с психологией и мотивацией.На данный момент изучаю книги по техническому анализу графиков.</p>    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aXwGeN6Z0rk?si=H4HLBwLXWGKHhJfq&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="slide__content">
+                    <h2>Спасибо за внимание.</h2>
+                    <button type="button" onclick="location.href='index1.html'" >Отзыв</button>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Пагинация и нагинация -->
+        <div class="slider-bottom">
+            <div class="slider-pagination">
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="slider-navigation">
+              <div class="swiper-button-prev"></div> 
+              <div class="swiper-button-next"></div> 
+            </div>
+        </div>
+    </div>
+    
+    <video src="media/background.mp4" class="video-background" muted></video>
+
+</body>
+</html>
